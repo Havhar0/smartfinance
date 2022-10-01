@@ -1,0 +1,305 @@
+
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* ---------- SECTION: Header 1 style LEFT */
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 150px 0px 150px;
+    align-items: center;
+}
+
+.header1 ul li{
+    display: inline;
+    list-style: none;
+    color: #3f3f3f;
+    align-items: center;
+}
+
+.header1-right ul li p{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #3f3f3f;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.header1-right ul li a{
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+
+
+/* ---------- SECTION: Header 1 style RIGHT */
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f3f3f;
+}
+
+.logo img{
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0px 20px 150px;
+}
+
+.header2 div ul {
+    padding: 0px 150px 0px 50px;
+}
+
+.header2 ul li {
+    display: inline;
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header2 .dash {
+    color: #ff7423;
+}
+
+
+
+
+/* ---------- SECTION: Main banner */
+
+.hero {
+    color: white;
+    width: auto;
+    background: rgb(0,202,202);
+    background: radial-gradient(circle, rgba(0,202,202,1) 0%, rgba(61,231,232,1) 59%, rgba(0,202,202,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: auto;
+}    
+
+.heroleft {
+    padding: 150px 0px 150px 50px;
+    max-width: 650px; 
+}
+
+.herotitle {
+    letter-spacing: -5px;
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 110%;
+}
+
+.heroleft p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 130%;
+    margin-top: 45px;
+}
+
+.heroleft .button {
+    color: white;
+    background-color: #ff7423;
+    outline: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    margin-top: 45px;
+    padding: 20px;  
+}
+
+.heroright img{
+    height: 100%;
+    max-width: auto;
+}
+
+
+
+/* ---------- SECTION: About us section */
+
+.aboutus {
+    width: auto;
+    min-height: 800px;
+    max-height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.aboutusleft img {
+max-width: 700px;
+max-height: auto;
+}
+
+.aboutusright {
+    max-width: 700px;
+    min-width: 400px;
+    min-height: 300px;
+    min-height: 300px;
+    max-height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutustext h3{
+    color: #01c8c8;
+    font-style: oblique;
+}
+
+.aboutustext {
+    padding: 100px;
+}
+
+
+
+
+/* ---------- SECTION: Choose Us section */
+
+.chooseus {
+    width: auto;
+    min-height: 800px;
+    height: auto;
+    background-image: url("images/glassesgrey.jpg");
+}
+
+.chooseus h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}    
+
+.container .chooseus-item{
+    color:white;
+    padding: 30px;
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.container .chooseus-item .readbtn {
+    margin-right: auto;
+    text-align: center;
+    background-color: #ff7423;
+    padding: 12px 20px;
+    max-width: 165px;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    border-radius: 8px;
+}
+
+
+
+
+/* ---------- SECTION: Meet Mark! section */
+
+.meetmark {
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    min-height: 400px;
+    max-height: 950px;
+}    
+
+.markleft img{
+
+    height: 100%;
+    max-width: auto;
+}
+
+.markright {
+    max-width: 650px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.marktitle {
+    letter-spacing: -5px;
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 100%;
+    color: #3f3f3f;
+}
+
+.meetmark .markright p{
+    max-width: 400px;
+    color: #3f3f3f;
+}
+
+.markright .readbtn {
+    color: white;
+    background-color: #ff7423;
+    outline: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    margin-top: 45px;
+    padding: 20px;  
+}
+
+
+
+
+/* ---------- SECTION: Footer section */
+
+.footer {
+    background-color: #3f3f3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.footer ul li{
+    margin-top: 50px;
+    display: inline;
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer .dash {
+    color: #ff7423;
+}
